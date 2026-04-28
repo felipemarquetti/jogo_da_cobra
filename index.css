@@ -10,7 +10,7 @@
     --esmaecido: #6B7280;
 }
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -22,11 +22,11 @@ body {
     color: var(--texto);
     min-height: 100vh;
     background-image:
-        radial-gradient(ellipse at 20% 20%, rgba(74, 222, 128, 0.06) 0%, transparent 60%), 
+        radial-gradient(ellipse at 20% 20%, rgba(74, 222, 128, 0.06) 0%, transparent 60%),
         radial-gradient(ellipse at 80% 80%, rgba(22, 163, 74, 0.05) 0%, transparent 60%);
 }
 
-/*NAVBAR*/
+/* NAVBAR */
 .navbar {
     background: rgba(10, 15, 10, 0.9);
     border-bottom: 1px solid var(--borda);
@@ -45,7 +45,7 @@ body {
     color: var(--esmaecido);
 }
 
-/*TÍTULO*/
+/* TÍTULO */
 .titulo-jogo {
     font-family: "Press Start 2P", monospace;
     font-size: clamp(2rem, 8.5vw, 3.5rem) !important;
@@ -63,8 +63,8 @@ body {
     line-height: 1.7;
 }
 
-/*CARDS*/
-.card-recorde
+/* CARDS */
+.card-recorde,       /* ← vírgula faltando aqui */
 .card.instrucoes {
     background: var(--fundo-card);
     border: 1px solid var(--borda);
@@ -92,7 +92,7 @@ body {
     opacity: 0.8;
 }
 
-/*DIFICULDADE*/
+/* DIFICULDADE */
 .label-secao {
     font-size: 0.7rem;
     text-transform: uppercase;
@@ -144,7 +144,7 @@ body {
     transform: translateY(-2px);
 }
 
-/*INSTRUÇÕES*/
+/* INSTRUÇÕES */
 .instrucao-item {
     background: #0F1A0F;
     border: 1px solid var(--borda);
